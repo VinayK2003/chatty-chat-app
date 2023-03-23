@@ -1,0 +1,137 @@
+.chat-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid #3b5998;
+    margin-top: 30px;
+  }
+  .header {
+    background-color: #3b5998;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+  .messages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .user {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .new-message-form {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .new-message-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .send-button {
+    border: none;
+    outline: none;
+    background: #3b5998;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 14px;
+    border-radius: 4px;
+    
+  }
+
+  .send-button :hover{
+    background-color: #0d2c71;
+  }
+
+  .sign_out_button{
+
+    border: none;
+    outline: none;
+    background: #f2bd10;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 14px;
+    border-radius: 4px;
+
+  }
+
+  .sign_in_button{
+
+    border: none;
+    outline: none;
+    background: #f2bd10;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 14px;
+    border-radius: 4px;
+
+  }
+
+  .sign_out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0 0 25px;
+ }
+
+ .sign_in{
+   margin-top: 100px;
+ }
+
+ /* .sign_out_button:hover {
+  cursor: pointer;
+}
+
+.sign_in_button:hover {
+  cursor: pointer;
+}
+
+.send_button:hover {
+  cursor: pointer;
+}
+.send-button:hover {
+  cursor: pointer;
+} */
+
+
+.send-button:hover,.enter_chat_button:hover, .sign_out_button:hover, .sign_in_button:hover {
+  cursor: pointer;
+  /* background-color: #0d2c71; */
+  box-shadow: 2px 2px 5px #333;
+}
